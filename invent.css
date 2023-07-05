@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+background-image: url(https://learn.g2.com/hubfs/iStock-1024926532.jpg);
+background-size: cover;
+  }
+  nav {
+    width: 100%;
+    background: linear-gradient(to right, #203db8, #e7c620);
+    padding: 10px 0;
+    margin-bottom: 20px;  
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 50px;
+  }
+
+  nav li {
+    padding: 10px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    color: orange;
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+   background: rgb(241, 247, 242);;
+   
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td:last-child {
+    text-align: center;
+  }
+  
+  #search {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
